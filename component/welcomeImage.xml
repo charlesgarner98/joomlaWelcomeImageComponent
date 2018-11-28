@@ -8,7 +8,7 @@
 	<authorEmail>charlesgarne98@gmail.com</authorEmail>
 	<authorUrl>http://charlesgarner.uk</authorUrl>
 	<!--  The version string is recorded in the components table -->
-	<version>0.0.1</version>
+	<version>1.0.1</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>Display a welcome image for DLC Online</description>
 
@@ -46,7 +46,7 @@
 
 	<administration>
 		<!-- Administration Menu Section -->
-		<menu link='index.php?option=com_welcomeimage'>Welcome Image</menu>
+		<menu link='index.php?option=com_welcomeImage'>Welcome Image</menu>
 		<!-- Administration Main File Copy Section -->
 		<!-- Note the folder attribute: This attribute describes the folder
 			to copy FROM in the package to install therefore files copied
