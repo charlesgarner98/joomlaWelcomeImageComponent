@@ -46,7 +46,7 @@
 
 	<administration>
 		<!-- Administration Menu Section -->
-		<menu link='index.php?option=com_welcomeimage'>Welcome Image</menu>
+		<menu link='index.php?option=com_welcomeImage'>Welcome Image</menu>
 		<!-- Administration Main File Copy Section -->
 		<!-- Note the folder attribute: This attribute describes the folder
 			to copy FROM in the package to install therefore files copied
