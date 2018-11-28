@@ -23,4 +23,25 @@ if (!defined('_JDEFINES'))
 
 require_once JPATH_BASE . '/includes/framework.php';
 
+if(isset($_POST['imageURL'])){
+
+  $imageURL = $_POST['imageURL'];
+
+  $db = JFactory::getDbo();
+  $query = $db->getQuery(true);
+
+  //Snow
+  $query = "UPDATE #__welcomeImage SET image=". $imageURL ." WHERE id=1;";
+  $db->setQuery($query);
+  $result = $db->query();
+  if($result){
+    $result1 = 'success';
+  }
+
+  if($result1 == 'success') {
+    echo 'success';
+  }
+
+}
+
 ?>
