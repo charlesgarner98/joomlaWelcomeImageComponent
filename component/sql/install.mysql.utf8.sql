@@ -8,3 +8,6 @@ CREATE TABLE `#__welcomeImage` (
 	ENGINE =MyISAM
 	AUTO_INCREMENT =0
 	DEFAULT CHARSET =utf8;
+
+INSERT INTO `#__welcomeImage` (`image`) VALUES
+('');

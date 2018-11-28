@@ -8,7 +8,7 @@
 	<authorEmail>charlesgarne98@gmail.com</authorEmail>
 	<authorUrl>http://charlesgarner.uk</authorUrl>
 	<!--  The version string is recorded in the components table -->
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>Display a welcome image for DLC Online</description>
 
