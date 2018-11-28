@@ -8,7 +8,7 @@
 	<authorEmail>charlesgarne98@gmail.com</authorEmail>
 	<authorUrl>http://charlesgarner.uk</authorUrl>
 	<!--  The version string is recorded in the components table -->
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>Display a welcome image for DLC Online</description>
 
@@ -41,12 +41,12 @@
 		in this section are copied from /site/ in the package -->
 	<files folder="site">
 		<filename>index.html</filename>
-		<filename>welcomeImage.php</filename>
+		<filename>welcomeimage.php</filename>
 	</files>
 
 	<administration>
 		<!-- Administration Menu Section -->
-		<menu link='index.php?option=com_welcomeImage'>Welcome Image</menu>
+		<menu link='index.php?option=com_welcomeimage'>Welcome Image</menu>
 		<!-- Administration Main File Copy Section -->
 		<!-- Note the folder attribute: This attribute describes the folder
 			to copy FROM in the package to install therefore files copied
@@ -54,7 +54,7 @@
 		<files folder="admin">
 			<!-- Admin Main File Copy Section -->
 			<filename>index.html</filename>
-			<filename>welcomeImage.php</filename>
+			<filename>welcomeimage.php</filename>
 			<filename>ajax.php</filename>
 			<!-- SQL files section -->
 			<folder>sql</folder>

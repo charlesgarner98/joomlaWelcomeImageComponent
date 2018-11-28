@@ -21,7 +21,7 @@
 
 
 ?>
-<form action="/administrator/index.php?option=com_welcomeImage" id="component-form" method="post" name="adminForm" autocomplete="off" class="form-validate form-horizontal">
+<form action="/administrator/index.php?option=com_welcomeimage" id="component-form" method="post" name="adminForm" autocomplete="off" class="form-validate form-horizontal">
   <div class="control-group">
     <div class="control-label">
       <label id="jform_image-lbl" for="jform_welcomeImage" class="hasPopover" title data-content="Select welcome image to display on homepage." data-original-title="Welcome Image">
@@ -45,7 +45,7 @@
 
     jQuery.ajax({
       type: "POST",
-      url: "/administrator/components/com_welcomeImage/ajax.php",
+      url: "/administrator/components/com_welcomeimage/ajax.php",
       data: { 'imageURL' : imageURL },
     }).done(function(result){
       if(result == 'success'){
